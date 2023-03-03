@@ -12,9 +12,16 @@
     position: relative;
 }
 
+#container-text h2{
+    font-size: 3rem;
+}
+#container-text h1{
+    font-size: 5rem;
+}
+
 #add-age, #sub-age{
     padding: 1rem;
-    margin: 4rem auto;
+    margin: 1rem auto;
     position: relative;
     width: 20rem;
     display: block;
@@ -23,5 +30,7 @@
 #clearBtn, #verify-age{
     padding: 1rem;
     width: 15rem;
-    margin: 0 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 5rem;
 }
