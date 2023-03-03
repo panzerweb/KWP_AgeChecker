@@ -6,17 +6,22 @@
 
 #main-container{
     width: 50%;
-    margin: 2rem auto;
+    height: 70vh;
+    margin: 5rem auto;
     background-color: purple;
     position: relative;
 }
 
-#add-age{
-    width: 5rem;
-    margin: 1rem auto;
+#add-age, #sub-age{
+    padding: 1rem;
+    margin: 4rem auto;
+    position: relative;
+    width: 20rem;
+    display: block;
 }
 
-#sub-age{
-    width: 5rem;
-    margin: 0.5rem auto;
+#clearBtn, #verify-age{
+    padding: 1rem;
+    width: 15rem;
+    margin: 0 0.5rem;
 }
