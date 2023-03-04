@@ -23,12 +23,18 @@ function subAge(){
 }
 
 function verifyAge(){
-    if(ageCount >= 6){
+    if(ageCount >= 3){
         window.open("https://shiny-clafoutis-8dc2a3.netlify.app/", "_blank");
+
     }
     else{
         alertEl.style.display = "block"
-        alertEl.textContent = "You are not allowed!"
+        alertEl.textContent = "Need strict supervision for age below 3"
+
+        let soundEff = document.getElementById("soundEffect");
+        soundEff.play();
+
+        ageCount = 0;
     }
 }       
 
