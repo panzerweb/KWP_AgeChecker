@@ -24,9 +24,10 @@ function subAge(){
 
 function verifyAge(){
     if(ageCount >= 6){
-        window.location.href = "https://shiny-clafoutis-8dc2a3.netlify.app/";
+        window.open("https://shiny-clafoutis-8dc2a3.netlify.app/", "_blank");
     }
     else{
+        alertEl.style.display = "block"
         alertEl.textContent = "You are not allowed!"
     }
 }       
